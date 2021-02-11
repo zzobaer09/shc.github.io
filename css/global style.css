@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(50, 65, 80);
+    color: white;
+    margin: 0px;
+}
+h1, h2{
+    text-align: center;
+}
+nav{
+    background: rgb(204,134,36);
+    background: linear-gradient(90deg, rgba(204,134,36,1) -17%, rgba(131,58,180,1) 79%);
+    width: 100%;
+    position: fixed;
+}
+.link-list{
+    margin: 2%;
+}
+#header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline red;
+}
+li{
+    list-style-type: none;
+}
+.p-style{
+    border: 5px solid rgb(188, 250, 95);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 50px;
+}
+.short-text{
+    text-align: center;
+}
+main{
+    margin-bottom: 80px;
+
+    margin-top: 100px;
+}
+footer{
+    /* background-color: rgb(71, 110, 150); */
+    background: linear-gradient(to bottom,rgba(50, 65, 80,0.8) 44%,rgb(110, 110, 129),rgb(71, 110, 150));
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 19px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.span1 div{
+    margin-left: 50px;
+    margin-right: 60px;
+}
+                                /* custom  tag */
+                    /* color */
+r{
+    color: red;
+}
+pink{
+    color: hotpink;
+}
+                    /* other */
+date{
+    color: rgb(185, 147, 255);
+}

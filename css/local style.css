@@ -1,0 +1,54 @@
+main section.about-us-section h1{
+    text-align: center;
+}
+#our-pro h2{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#our-pro-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+#our-pro-div div{
+    background-color: white;
+    color: black;
+    border: 2px solid hotpink;
+    border-radius: 30px;
+    width: 35%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+#our-pro-div div:hover{
+    box-shadow: rgb(0, 0, 0) 0px 0px 50px;
+    text-align: center;
+}
+#our-pro-div ul{
+    padding: 0px;
+}
+#our-pro-div ul li{
+    height: 50%;
+    padding: 5px;
+}
+#our-pro-div a{
+    color: rgb(75, 69, 72);
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: underline greenyellow 3px;
+}
+#our-pro-div a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0,0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 20%;
+}
+#our-pro-div p{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+#our-pro-div h3{
+    text-align: center;
+}

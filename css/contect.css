@@ -1,0 +1,20 @@
+*{
+    margin-top: 0px;
+}
+main{
+    font-size: 22px;
+}
+.fb{
+    list-style-image: url(../img/facebook-icon_32x32.png);
+    margin-left: 35px;
+}
+body main p{
+    text-align: center;
+    font-size: 42px;
+}
+form{
+    margin-left: 40px;
+}
+.p-style{
+    padding-left: 0px;
+}

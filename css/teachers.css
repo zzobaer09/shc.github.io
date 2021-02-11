@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.teach{
+    width: 99%;
+}
+.teach div{
+    margin-left: 40px;
+}
+section{
+    border: 5px solid yellowgreen;
+    border-radius: 30px;
+}
+.fb{
+    list-style-image: url(../img/facebook-icon_32x32.png);
+}
+.t-img{
+    width: 80%;
+    padding-left: 35px;
+    padding-top: 20px;
+}

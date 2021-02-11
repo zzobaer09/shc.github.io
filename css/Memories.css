@@ -1,0 +1,12 @@
+.pic ul , .pic li{
+    margin: 0px;
+    padding: 0px;
+}
+.pic ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic img{
+    width: 300px;
+    margin: 30px;
+}

@@ -1,0 +1,29 @@
+body{
+    background: rgb(158,26,245);
+    background: linear-gradient(193deg, rgba(158,26,245,1) 0%, rgba(84,58,180,1) 100%);
+    color: white;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-left: 15%;
+}
+#fb{
+    list-style-image: url(../img/facebook-icon_32x32.png);
+}
+#in{
+    list-style-image: url(../img/instagram-icon_32x32.png);
+}
+#tw{
+    list-style-image: url(../img/twitter-icon_32x32.png);
+}
+img{
+    width: 70%;
+    margin-left: 15%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
