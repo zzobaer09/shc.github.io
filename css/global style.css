@@ -11,6 +11,7 @@ nav{
     background: linear-gradient(90deg, rgba(204,134,36,1) -17%, rgba(131,58,180,1) 79%);
     width: 100%;
     position: fixed;
+    font-family: 'Roboto Mono', monospace;
 }
 .link-list{
     margin: 2%;
@@ -19,14 +20,17 @@ nav{
     display: flex;
     flex-wrap: wrap;
 }
+#under{
+    border-bottom: 5px solid rgb(1, 255, 242);
+}
 a{
     color: white;
     text-decoration: none;
 }
 
 a:hover{
-    color: red;
-    text-decoration: underline red;
+    color: rgb(194, 194, 194);
+    text-decoration: 3px underline rgb(0, 0, 0);
 }
 li{
     list-style-type: none;
@@ -42,8 +46,8 @@ li{
 }
 main{
     margin-bottom: 80px;
-
     margin-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 footer{
     /* background-color: rgb(71, 110, 150); */
@@ -54,6 +58,7 @@ footer{
     font-size: 19px;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Roboto Mono', monospace;
 }
 .span1 div{
     margin-left: 50px;
